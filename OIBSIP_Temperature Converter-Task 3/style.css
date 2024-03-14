@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+  
+}
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: whitesmoke;
+    padding-top: 15px;
+    padding: 30px;
+}
+p{
+    color:rgb(247, 250, 248);
+    padding-bottom: 20px;
+}
+
+button.white{
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 20px;
+    padding:11px 18px;
+    color:#fff;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #fff;
+    outline: none;
+    transition: 0.2s;
+    margin-bottom: 15px;
+   
+    
+}
+body {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(140, 153, 199);
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+    padding-top: 50px;
+}
+  
+.container button:hover{
+    background:transparent;
+    color:black;
+    border-radius: 5px;
+}
+
+
+
+#result {
+    margin-top: 15px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    outline: none;
+    padding: 11px 18px;
+    transition: 0.2s;
+    display: inline-block; /* Add this line to make it display as a block within the container */
+}
+
+
+.custom-input {
+    font-size: 16px;
+    color: #333;
+    border: 1px solid #ccc;
+    width: 300px;
+    height: 30px;
+    border-radius: 0.5rem;
+}
+
+.container {
+    border: 1px solid black;
+    background-color: rgb(36 36 36 / 1);
+    justify-content: center;
+    text-align: center;
+    border-radius: 12px;
+    padding-left: 20px;
+    height: 100%;
+    padding-right: 20px;
+    padding-top: 30px;
+    overflow: hidden; /* Add this line to prevent content overflow */
+}
+
+
+.custom-input{
+    font-size: 16px;
+    color:#333;
+    border:1px solid #ccc;
+    width:300px;
+    height: 30px;
+    border-radius: 0.5rem;
+    
+}
